@@ -15,10 +15,10 @@ Escolhemos o framework **React** pois não impõe estrutura de backend, permitin
 **Semana 1 - Organização inicial ✅** 
 *Responsável: Lídia*
 
-1 - Criar o repositório PÚBLICO do projeto
-2 - Criar o README.md com as seguintes informações:
-a) Nome do Projeto
-b) Equipe
+- Criar o repositório PÚBLICO do projeto
+- Criar o README.md com as seguintes informações:
+  - Nome do Projeto
+  - Equipe
 C) Descrição do Tema
 D) Tecnologia de Frontend
 E) Cronograma Inicial do Projeto divido por etapas
