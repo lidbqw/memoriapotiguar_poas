@@ -2,8 +2,8 @@
 Projeto da disciplina POAS baseado no projeto de PP "Memória Potiguar"
 
 ## Equipe:
-Lídia Maria de Medeiros Santos (Líder),
-César da Silva Santos
+- Lídia Maria de Medeiros Santos (Líder),
+- César da Silva Santos
 
 ## Tema:
 Escolhemos trabalhar em cima do nosso PP (Prática Profissional), pois a ideia do nosso site é bastante interessante de ser desenvolvida. O projeto consiste em um site que ressalta a importância de divulgar pontos turísticos pouco conhecidos no RN. Além disso, já possuímos familiaridade com o projeto, o que facilita o desenvolvimento e a construção desta nova etapa.
@@ -19,9 +19,9 @@ Escolhemos o framework **React** pois não impõe estrutura de backend, permitin
 - Criar o README.md com as seguintes informações:
   - Nome do Projeto
   - Equipe
-C) Descrição do Tema
-D) Tecnologia de Frontend
-E) Cronograma Inicial do Projeto divido por etapas
+  - Descrição do Tema
+  - Tecnologia de Frontend
+  - Cronograma Inicial do Projeto divido por etapas
 
 **Semana 2 - Configuração Inicial** 
 *Responsável: César*
