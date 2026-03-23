@@ -1,5 +1,4 @@
-# memoriapotiguar_poas
-**Memória Potiguar**
+# Memória Potiguar
 Projeto da disciplina POAS baseado no projeto de PP "Memória Potiguar"
 
 ## Equipe:
