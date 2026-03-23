@@ -23,6 +23,9 @@ Escolhemos o framework **React** pois não impõe estrutura de backend, permitin
   - Tecnologia de Frontend
   - Cronograma Inicial do Projeto divido por etapas
 
-**Semana 2 - Configuração Inicial** 
+**Semana 2 - Configuração do Ambiente de Desenvolvimento** 
 *Responsável: César*
 
+- Instalação e configuração do ambiente
+- Criação do projeto base
+- Primeiro container
