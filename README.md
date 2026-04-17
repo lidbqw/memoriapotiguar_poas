@@ -2,7 +2,7 @@
 Projeto da disciplina POAS baseado no projeto de PP "Memória Potiguar"
 
 ## Equipe:
-- Lídia Maria de Medeiros Santos (Líder),
+- Lídia Maria de Medeiros Santos (Líder)
 - César da Silva Santos
 
 ## Tema:
