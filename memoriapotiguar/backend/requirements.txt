@@ -1,0 +1,38 @@
+memoria-potiguar/
+│
+├── backend/                      # API FastAPI
+│   ├── app/
+│   │   ├── __init__.py
+│   │   ├── main.py               # entry point do FastAPI
+│   │   ├── database.py           # conexão com MySQL
+│   │   ├── models.py             # modelos/tabelas
+│   │   ├── schemas.py            # schemas Pydantic
+│   │   ├── routes/
+│   │   │   ├── __init__.py
+│   │   │   ├── lugares.py        # rotas de pontos turísticos
+│   │   │   └── cultura.py        # rotas de conteúdo cultural
+│   │   └── utils.py              # funções auxiliares
+│   │
+│   ├── requirements.txt          # dependências Python
+│   └── .env                      # variáveis de ambiente (DB_URL, etc)
+│
+├── frontend/                     # React
+│   ├── public/
+│   │   └── index.html
+│   ├── src/
+│   │   ├── components/           # componentes React
+│   │   │   ├── Header.jsx
+│   │   │   ├── Footer.jsx
+│   │   │   └── CardLugar.jsx
+│   │   ├── pages/                # páginas
+│   │   │   ├── Home.jsx
+│   │   │   ├── Lugares.jsx
+│   │   │   └── Sobre.jsx
+│   │   ├── styles/               # CSS (ou CSS modules)
+│   │   │   └── global.css
+│   │   ├── App.jsx
+│   │   └── main.jsx
+│   ├── package.json
+│   └── vite.config.js            # ou next.config.js
+│
+└── README.md
