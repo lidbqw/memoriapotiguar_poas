@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gatronomia - Memória Potiguar</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<header>
+    <div class="logo">Memória Potiguar</div>
+    <nav>
+        <a href="index">Início</a>
+        <a href="categorias">Categorias</a>
+        <a href="login" class="logout">Sair</a>
+    </nav>
+</header>
+
+<div class="faixa-imagem">
+    <img src="{{ url_for('static', filename='img/gastronomico1.png') }}">
+</div>
+
+<!-- CONTEÚDO -->
+<section class="container">
+
+    <div class="card">
+         <img src="{{ url_for('static', filename='img/taapera.jpg') }}">
+        <div class="card-content">
+            <h3>Recanto da Tapera</h3>
+            <p>O Recanto da Tapera faz da gastronomia uma extensão da sua própria história, servindo o autêntico sabor do Seridó. O cardápio foca na culinária afetiva, com pratos regionais que resgatam o tempero das famílias sertanejas. No self-service dominical ou no menu à la carte, o foco é a tradição: ingredientes locais preparados para criar uma conexão entre o paladar e as raízes da terra. Comer ali é experimentar um patrimônio vivo, onde a comida preserva a memória que o tempo não apaga.</p>
+        </div>
+    </div>
+
+    <div class="card">
+         <img src="{{ url_for('static', filename='img/Gastrobar.jpg') }}">
+        <div class="card-content">
+            <h3>Gastrobar</h3>
+            <p>A gastronomia do Gastrobar, na Serra do João do Vale, é uma celebração da regionalidade com sofisticação. Sob o comando da chef Patricia Lopes, o cardápio eleva os ingredientes do Sertão a um novo patamar, oferecendo desde o tradicional café da manhã serrano até petiscos elaborados e drinks autorais. O foco está na experiência sensorial: sabores marcantes que harmonizam com o clima ameno e a vista privilegiada, transformando cada refeição em um evento de lazer e contemplação nas alturas..</p>
+        </div>
+    </div>
+
+    <div class="card">
+         <img src="{{ url_for('static', filename='img/Trailers.jpg') }}">
+        <div class="card-content">
+            <h3>Praça dos Trailers</h3>
+            <p>A Praça dos Trailers é o ponto de encontro mais democrático de Caicó, onde a vida urbana pulsa ao redor da gastronomia de rua. Diferente do refúgio rural, a praça foca na agilidade e no convívio, oferecendo desde sanduíches clássicos a pratos com o toque regional da carne de sol. É o coração social da cidade, onde o sabor popular e a hospitalidade seridoense se misturam sob o céu aberto, transformando cada lanche em um momento de lazer coletivo.
+            </p>
+        </div>
+    </div>
+
+    <div class="card">
+         <img src="{{ url_for('static', filename='img/terra.jpg') }}">
+        <div class="card-content">
+            <h3>Tempero da Terra</h3>
+            <p>O restaurante Tempero da Terra, em Caicó, é uma das principais referências em comida regional e caseira da cidade, destacando-se pelo ambiente climatizado e acolhedor no centro. Enquanto locais como a Praça dos Trailers focam no movimento noturno, o Tempero da Terra é o destino ideal para quem busca o sabor autêntico do Sertão durante o dia, sendo considerado um ponto de parada obrigatória, especialmente durante eventos tradicionais como a Festa de Sant'Ana.</p>
+        </div>
+    </div>
+
+    <div class="card">
+         <img src="{{ url_for('static', filename='img/mozafla.jpg') }}">
+        <div class="card-content">
+            <h3>Mozafla Restaurante</h3>
+            <p>O Mozafla Restaurante, em Cruzeta, é a principal referência quando o assunto é o sabor autêntico da comida caseira no Seridó, destacando-se pelo atendimento familiar e pelo tempero regional que conquista tanto os moradores quanto quem está de passagem. Enquanto o movimento da cidade se concentra em lanchonetes e bares no período noturno, o Mozafla é o destino certo para quem busca o verdadeiro almoço sertanejo durante o dia, sendo considerado uma parada obrigatória no bairro Novo Horizonte para quem valoriza uma refeição com gostinho de acolhimento e tradição local.</p>
+        </div>
+    </div>
+
+    <div class="card">
+         <img src="{{ url_for('static', filename='img/zorro.jpg') }}">
+        <div class="card-content">
+            <h3>Restaurante do Zorro</h3>
+            <p> O Restaurante do Zorro, em Jucurutu, é uma das referências mais tradicionais quando se busca a verdadeira culinária regional às margens da BR-226. Enquanto outros pontos da cidade focam no agito urbano, o Zorro se destaca pela hospitalidade e pelo cardápio que exalta os sabores do Seridó, sendo o ponto de parada preferido de viajantes e famílias que buscam um almoço farto e com tempero caseiro. Localizado estrategicamente para quem cruza o estado, o restaurante é um marco da gastronomia local, unindo simplicidade e qualidade em um ambiente que reflete a essência do acolhimento potiguar.</p>
+        </div>
+    </div>
+
+</section>
+
+<footer>
+    <p>&copy; 2024 Memória Potiguar - Todos os direitos reservados</p>
+</footer>
+
+</body>
+</html>
