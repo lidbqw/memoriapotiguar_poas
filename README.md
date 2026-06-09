@@ -11,51 +11,69 @@ Escolhemos trabalhar em cima do nosso PP (Prática Profissional), pois a ideia d
 
 ## Frontend:
 Escolhemos o framework **React** pois não impõe estrutura de backend, permitindo que você construa uma API REST separada facilmente e ferramentas como Create React App ou Vite simplificam a configuração inicial. VueJS também funcionaria bem, mas o React tem mais exemplos de integração com APIs REST, e o NextJS embora seja excelente, adiciona complexidade desnecessária para o nosso projeto e oferece SSR e outras funcionalidades que não serão necessárias.
+# Cronograma Inicial do Projeto
 
-## Cronograma Inicial do Projeto:
+## Etapa 1 (Março) - Organização Inicial ✅
 
-**Etapa 1 (Março) - Organização inicial ✅** 
-- Criar o repositório PÚBLICO do projeto
-- Criar o README.md com as seguintes informações:
-  - Nome do Projeto
-  - Equipe
-  - Descrição do Tema
-  - Tecnologia de Frontend
-  - Cronograma Inicial do Projeto divido por etapas
+* Definição das regras do sistema
+* Escolha de cores, layout e identidade visual
+* Planejamento das funcionalidades principais
+* Organização da equipe e divisão de tarefas
 
-**Etapa 2 (Abril) - Ambiente e backend** 
-- Instalação e configuração do ambiente
-- Criar estrutura base do backend
-- Configurar Dockerfile para o backend
-- Implementar modelo de dados base
+## Etapa 2 (Abril) - Configuração do Ambiente
 
-**Etapa 3 (Maio) - Frontend Base e Integração** 
-- Configurar React (Vite) + Dockerfile do frontend
-- Criar estrutura de componentes e rotas básicas
-- Configurar comunicação com API
+* Configuração do projeto em Vue.js
+* Criação da estrutura de pastas e componentes
+* Configuração das rotas principais
+* Preparação do ambiente de desenvolvimento
 
-**Etapa 4 (Junho) - Autenticação JWT**
-- Implementar registro e login no backend (JWT)
-- Criar telas de login/cadastro no frontend
-- Implementar armazenamento do token e rotas protegidas
+## Etapa 3 (Maio) - Desenvolvimento Inicial do Frontend
 
-**Etapa 5 (Julho) - Funcionalidades Principais**
-- CRUD completo de pontos turísticos
-- Interface de cadastro/edição de pontos
+* Desenvolvimento das telas principais
+* Criação de componentes reutilizáveis
+* Estilização inicial da interface
+* Ajustes de responsividade
 
-**Etapa 6 (Agosto) - Funcionalidades Principais**
-- CRUD de eventos das cidades
-- Interface de eventos + filtros por cidade
+## Etapa 4 (Junho) - Cadastro e Gerenciamento de Instituições
 
-**Etapa 7 (Setembro) - Infraestrutura e IaC** 
-- Configurar Docker
+* Tela de cadastro de animais
+* Tela de gerenciamento de adoções
+* Tela de cadastro de instituições/ONGs
+* Implementação de validações de formulários
+* Melhorias de layout e usabilidade
 
-**Etapa 8 (Outubro) - Testes, Ajustes e Documentação** 
-- Testes manuais completos e correção de bugs
-- Ajustes de responsividade
-- Documentação técnica (como rodar, variáveis, etc.)
+## Etapa 5 (Julho) - Usuários, Doações e Resgates
 
-**Etapa 9 (Novembro - Dezembro) - Correções e Finalização** 
-- Corrigir todos os erros e bugs
-- Finalizar o projeto e documentação
+* Tela de cadastro de usuários
+* Tela de gerenciamento de doações
+* Tela de gerenciamento de resgates
+* Integração entre as telas
+* Atualização dinâmica de dados utilizando Vue.js
 
+## Etapa 6 (Agosto) - Melhorias e Funcionalidades Extras
+
+* Implementação de busca de animais
+* Implementação de filtros
+* Melhorias na experiência do usuário
+* Ajustes de desempenho e interface
+
+## Etapa 7 (Setembro) - Integração e Testes
+
+* Integração completa com o backend
+* Testes das funcionalidades implementadas
+* Correção de bugs encontrados
+* Ajustes finais do frontend
+
+## Etapa 8 (Outubro) - Revisão e Finalização
+
+* Revisão geral do sistema
+* Ajustes finais de design
+* Testes finais de usabilidade
+* Preparação da documentação do projeto
+
+## Etapa 9 (Novembro - Dezembro) - Correções e Entrega
+
+* Correção de erros identificados após os testes
+* Refinamento das funcionalidades
+* Finalização da documentação
+* Preparação da versão final para entrega
