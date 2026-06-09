@@ -11,69 +11,74 @@ Escolhemos trabalhar em cima do nosso PP (Prática Profissional), pois a ideia d
 
 ## Frontend:
 Escolhemos o framework **React** pois não impõe estrutura de backend, permitindo que você construa uma API REST separada facilmente e ferramentas como Create React App ou Vite simplificam a configuração inicial. VueJS também funcionaria bem, mas o React tem mais exemplos de integração com APIs REST, e o NextJS embora seja excelente, adiciona complexidade desnecessária para o nosso projeto e oferece SSR e outras funcionalidades que não serão necessárias.
+
 # Cronograma Inicial do Projeto
 
-## Etapa 1 (Março) - Organização Inicial ✅
+## Etapa 1 (Março) - Planejamento e Organização Inicial ✅
 
 * Definição das regras do sistema
-* Escolha de cores, layout e identidade visual
-* Planejamento das funcionalidades principais
-* Organização da equipe e divisão de tarefas
+* Levantamento dos requisitos do projeto
+* Escolha do layout e identidade visual
+* Criação do repositório público
+* Elaboração do README com as informações do projeto
 
-## Etapa 2 (Abril) - Configuração do Ambiente
+## Etapa 2 (Abril) - Configuração do Ambiente e Estrutura Base
 
-* Configuração do projeto em Vue.js
-* Criação da estrutura de pastas e componentes
+* Instalação e configuração do ambiente de desenvolvimento
+* Configuração do projeto em React (Vite)
+* Criação da estrutura de componentes e pastas
 * Configuração das rotas principais
-* Preparação do ambiente de desenvolvimento
+* Criação da estrutura inicial do backend
+* Implementação do modelo de banco de dados
 
 ## Etapa 3 (Maio) - Desenvolvimento Inicial do Frontend
 
 * Desenvolvimento das telas principais
 * Criação de componentes reutilizáveis
 * Estilização inicial da interface
-* Ajustes de responsividade
+* Configuração da comunicação entre frontend e API
 
-## Etapa 4 (Junho) - Cadastro e Gerenciamento de Instituições
+## Etapa 4 (Junho) - Autenticação e Controle de Acesso
 
-* Tela de cadastro de animais
-* Tela de gerenciamento de adoções
-* Tela de cadastro de instituições/ONGs
-* Implementação de validações de formulários
+* Implementação do sistema de login e cadastro
+* Configuração da autenticação JWT
+* Criação das telas de login e cadastro
+* Implementação do armazenamento de token
+* Configuração de rotas protegidas
 * Melhorias de layout e usabilidade
 
-## Etapa 5 (Julho) - Usuários, Doações e Resgates
+## Etapa 5 (Julho) - Gerenciamento de Pontos Turísticos
 
-* Tela de cadastro de usuários
-* Tela de gerenciamento de doações
-* Tela de gerenciamento de resgates
-* Integração entre as telas
-* Atualização dinâmica de dados utilizando Vue.js
+* Desenvolvimento do CRUD de pontos turísticos
+* Tela de cadastro e edição de pontos turísticos
+* Integração entre frontend e backend
+* Atualização dinâmica dos dados
 
-## Etapa 6 (Agosto) - Melhorias e Funcionalidades Extras
+## Etapa 6 (Agosto) - Eventos e Funcionalidades Complementares
 
-* Implementação de busca de animais
-* Implementação de filtros
-* Melhorias na experiência do usuário
-* Ajustes de desempenho e interface
+* Desenvolvimento do CRUD de eventos
+* Tela de gerenciamento de eventos
+* Implementação de busca e filtros por cidade
+* Refinamento da experiência do usuário
 
-## Etapa 7 (Setembro) - Integração e Testes
+## Etapa 7 (Setembro) - Infraestrutura e Integração Final
 
-* Integração completa com o backend
+* Configuração do Docker
+* Integração completa entre frontend e backend
 * Testes das funcionalidades implementadas
-* Correção de bugs encontrados
-* Ajustes finais do frontend
+* Correção de bugs e inconsistências
 
-## Etapa 8 (Outubro) - Revisão e Finalização
+## Etapa 8 (Outubro) - Testes e Ajustes Finais
 
 * Revisão geral do sistema
-* Ajustes finais de design
-* Testes finais de usabilidade
-* Preparação da documentação do projeto
+* Testes completos de usabilidade e funcionalidades
+* Ajustes de responsividade
+* Melhorias de desempenho
+* Atualização da documentação técnica
 
-## Etapa 9 (Novembro - Dezembro) - Correções e Entrega
+## Etapa 9 (Novembro - Dezembro) - Finalização e Entrega
 
-* Correção de erros identificados após os testes
+* Correção dos erros identificados nos testes finais
 * Refinamento das funcionalidades
-* Finalização da documentação
-* Preparação da versão final para entrega
+* Finalização da documentação do projeto
+* Preparação da versão final para apresentação e entrega
