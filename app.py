@@ -2,6 +2,7 @@ from fastapi import FastAPI, Request, Form
 from fastapi.responses import RedirectResponse
 from fastapi.staticfiles import StaticFiles
 from fastapi.templating import Jinja2Templates
+import uvicorn
 
 app = FastAPI(title="Memória Potiguar")
 
@@ -31,5 +32,4 @@ def index_page(request: Request):
     return templates.TemplateResponse("index.html", {"request": request})
 
 if __name__ == "__main__":
-    import uvicorn
     uvicorn.run("app:app", host="127.0.0.1", port=8000, reload=True)
