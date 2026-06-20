@@ -13,22 +13,6 @@ Escolhemos trabalhar em cima do nosso PP (Prática Profissional), pois a ideia d
 ## Frontend:
 Escolhemos o framework **React** pois não impõe estrutura de backend, permitindo que você construa uma API REST separada facilmente e ferramentas como Create React App ou Vite simplificam a configuração inicial. VueJS também funcionaria bem, mas o React tem mais exemplos de integração com APIs REST, e o NextJS embora seja excelente, adiciona complexidade desnecessária para o nosso projeto e oferece SSR e outras funcionalidades que não serão necessárias.
 
-# Cronograma Inicial do Projeto
-# Memória Potiguar
-Projeto da disciplina POAS baseado no projeto de PP "Memória Potiguar"
-- Documento de entrega do Projeto: https://docs.google.com/document/d/1bv4WLWdiYqjpeUPR8TDGBTE3JwD8pSyYuF0EVzFqtvg/edit?usp=sharing
-
-## Equipe:
-- Lídia Maria de Medeiros Santos (Líder)
-- César da Silva Santos
-- Godofredo Dantas de Medeiros Maia
-
-## Tema:
-Escolhemos trabalhar em cima do nosso PP (Prática Profissional), pois a ideia do nosso site é bastante interessante de ser desenvolvida. O projeto consiste em um site que ressalta a importância de divulgar pontos turísticos pouco conhecidos no RN. Além disso, já possuímos familiaridade com o projeto, o que facilita o desenvolvimento e a construção desta nova etapa.
-
-## Frontend:
-Escolhemos o framework **React** pois não impõe estrutura de backend, permitindo que você construa uma API REST separada facilmente e ferramentas como Create React App ou Vite simplificam a configuração inicial. VueJS também funcionaria bem, mas o React tem mais exemplos de integração com APIs REST, e o NextJS embora seja excelente, adiciona complexidade desnecessária para o nosso projeto e oferece SSR e outras funcionalidades que não serão necessárias.
-
 # Cronograma do Projeto
 
 ## Etapa 1 (Março) – Planejamento e Organização Inicial ✅
