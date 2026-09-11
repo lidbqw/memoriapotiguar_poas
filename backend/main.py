@@ -6,6 +6,7 @@ from starlette.responses import Response, FileResponse
 
 from app.config import settings
 from app.database.session import create_db_and_tables
+from app.api.admin import router as admin_router
 from app.api.auth import router as auth_router
 from app.api.users import router as users_router
 
@@ -33,6 +34,7 @@ app.mount("/img", StaticFiles(directory=IMG_DIR), name="img")
 # Include API routers under the API prefix
 app.include_router(auth_router, prefix=settings.api_prefix)
 app.include_router(users_router, prefix=settings.api_prefix)
+app.include_router(admin_router, prefix=settings.api_prefix)
 
 
 @app.on_event("startup")

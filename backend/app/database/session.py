@@ -1,7 +1,9 @@
-from sqlmodel import SQLModel, create_engine, Session
 from typing import Generator
-from app.config import settings
 
+from sqlmodel import Session, SQLModel, create_engine
+
+from app.config import settings
+from app.models.user import Administrador, Categoria, Gastronomia, Historia, User
 
 # Create engine
 engine = create_engine(
