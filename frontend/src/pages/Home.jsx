@@ -25,13 +25,6 @@ export default function Home() {
           to="/historico"
         />
         <CategoryCard
-          image={imageUrl('cutural1.png')}
-          title="Cultural"
-          text="Mergulhe nas manifestações artísticas, no artesanato, no folclore e nas expressões únicas que dão vida e movimento à nossa terra."
-          reverse
-          to="/historico"
-        />
-        <CategoryCard
           image={imageUrl('gastronomico1.png')}
           title="Gastronômico"
           text="Saboreie a legítima culinária sertaneja e litorânea: temperos fortes, ingredientes nativos e histórias de herança em uma verdadeira viagem de sabores."

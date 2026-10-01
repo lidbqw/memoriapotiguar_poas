@@ -1,4 +1,15 @@
-const API_URL = (import.meta.env.VITE_API_URL || 'http://127.0.0.1:8000').replace(/\/$/, '')
+const API_URL = (import.meta.env.VITE_API_URL || '').replace(/\/$/, '')
+
+async function request(path, options) {
+  try {
+    return await parseResponse(await fetch(`${API_URL}${path}`, options))
+  } catch (error) {
+    if (error instanceof TypeError) {
+      throw new Error('Não foi possível conectar à API. Verifique se o backend está em execução.')
+    }
+    throw error
+  }
+}
 
 async function parseResponse(response) {
   const text = await response.text()
@@ -17,12 +28,11 @@ async function parseResponse(response) {
 }
 
 export async function registerUser(payload) {
-  const response = await fetch(`${API_URL}/auth/register`, {
+  return request('/auth/register', {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify(payload),
   })
-  return parseResponse(response)
 }
 
 export async function loginUser(email, password) {
@@ -30,19 +40,17 @@ export async function loginUser(email, password) {
   body.set('username', email)
   body.set('password', password)
 
-  const response = await fetch(`${API_URL}/auth/login`, {
+  return request('/auth/login', {
     method: 'POST',
     headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
     body,
   })
-  return parseResponse(response)
 }
 
 export async function getCurrentUser(token) {
-  const response = await fetch(`${API_URL}/users/me`, {
+  return request('/users/me', {
     headers: { Authorization: `Bearer ${token}` },
   })
-  return parseResponse(response)
 }
 
 export function imageUrl(name) {

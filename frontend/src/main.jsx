@@ -7,6 +7,8 @@ import Home from '@/pages/Home'
 import Login from '@/pages/Login'
 import Register from '@/pages/Register'
 import ContentPage from '@/pages/ContentPage'
+import ContentDetail from '@/pages/ContentDetail'
+import About from '@/pages/About'
 import Profile from '@/pages/Profile'
 import '@/styles.css'
 
@@ -16,7 +18,10 @@ function App() {
     <Route path="/login" element={<Login />} />
     <Route path="/cadastro" element={<Register />} />
     <Route path="/historico" element={<ContentPage type="historia" />} />
+    <Route path="/historico/:slug" element={<ContentDetail type="historia" />} />
     <Route path="/gastronomico" element={<ContentPage type="gastronomia" />} />
+    <Route path="/gastronomico/:slug" element={<ContentDetail type="gastronomia" />} />
+    <Route path="/sobre" element={<About />} />
     <Route element={<ProtectedRoute />}>
       <Route path="/perfil" element={<Profile />} />
     </Route>

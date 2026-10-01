@@ -17,6 +17,7 @@ export default function Header() {
         <NavLink to="/">Início</NavLink>
         <NavLink to="/historico">Histórico</NavLink>
         <NavLink to="/gastronomico">Gastronômico</NavLink>
+        <NavLink to="/sobre">Sobre</NavLink>
         {isAuthenticated && <span className="welcome">Olá, {user?.nome?.split(' ')[0]}</span>}
         {isAuthenticated ? (
           <button className="logout-btn" onClick={handleLogout}>Sair</button>

@@ -19,7 +19,7 @@ export default function ContentPage({ type }) {
         <div><h1>{title}</h1><p>{subtitle}</p></div>
       </div>
       <section className="content-container">
-        <ContentGrid items={items} />
+        <ContentGrid items={items.map((item) => ({ ...item, basePath: isGastronomia ? '/gastronomico' : '/historico' }))} />
       </section>
     </main>
     <Footer />
