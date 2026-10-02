@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 
-export default function HeroCarousel({ slides, title, subtitle, className = '' }) {
+export default function HeroCarousel({ slides, title, subtitle }) {
   const [active, setActive] = useState(0)
 
   useEffect(() => {
@@ -9,7 +9,7 @@ export default function HeroCarousel({ slides, title, subtitle, className = '' }
   }, [slides.length])
 
   return (
-    <section className={`hero-carousel ${className}`} aria-label={title}>
+    <section className={`hero-carousel`} aria-label={title}>
       {slides.map((slide, index) => (
         <img
           key={slide.src}
